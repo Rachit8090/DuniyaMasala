@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1D25"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="394dp"
+        android:layout_height="452dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="120dp"
+        android:scaleType="center"
+        android:src="@drawable/vhvh"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnnews"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="ButtonNews"
+        android:text="GAINING"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:cornerRadius="25dp" />
+
+
+</LinearLayout>
